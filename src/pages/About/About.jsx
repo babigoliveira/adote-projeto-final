@@ -5,11 +5,11 @@ import "./About-style.css";
 function About() {
   return (
     <>
-      <div className="container">
-        <section className="sec1">
+      <main className="container-about">
+        <section className="home">
           <img className="logo" src={logo} />
-          <div className="text-sec1">
-            <h1 className="title-sec1">Adote</h1>
+          <div className="text-home">
+            <h1 className="title-home">Adote</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Asperiores fugiat nobis dolores magni nulla. Obcaecati accusamus
@@ -24,9 +24,9 @@ function About() {
           </div>
         </section>
 
-        <section className="sec2">
-          <h2 className="title-sec2"> Importância da adoção: </h2>
-          <div className="video">
+        <section className="about">
+          <h2 className="title-about"> Importância da adoção: </h2>
+          <div className="video-about">
             <iframe
               width="100%"
               height="250"
@@ -37,7 +37,7 @@ function About() {
               allowFullScreen
             />
           </div>
-          <p className="text-sec2">
+          <p className="text-about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
             reiciendis, modi amet quos veniam saepe nulla suscipit hic neque
             tempore esse laudantium, itaque, veritatis quasi soluta magni
@@ -45,10 +45,10 @@ function About() {
             adipisicing eleniti vitae eleniti vitae sit.
           </p>
           <img
-            className="image-sec2"
+            className="image1-about"
             src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2020/05/adocao-brasil.jpg"
           />
-          <p className="text-sec2">
+          <p className="text-about">
             Lorem ipsum dolor sit amet consectetur adipisicing elit.In, sit.
             Impedit blanditiis repellendus tempore? Incidunt laborum mollitia
             eum repudiandae, deleniti vitae nam voluptates vel quam, ut voluptas
@@ -57,10 +57,10 @@ function About() {
             asperiores deleniti vitae.
           </p>
           <img
-            className="image-verse-sec2"
+            className="image2-about"
             src="https://pbs.twimg.com/media/CAjpIUoUcAAzGe1.png"
           />
-          <p className="text-sec2">
+          <p className="text-about">
             Iure animi provident in incidunt com modi labore dese runt quaerat
             quo neque, molestias eveniet distinctio illo saepe obcaecati sunt
             est placeat beatae sed! Lorem ipsum dolor sit amet consectetur
@@ -71,7 +71,7 @@ function About() {
             dese runt quaerat quo neque, molestias eveniet distinctio illo saepe
             obcaecati sunt est placeat beatae sed!
           </p>
-          <p className="text-sec2">
+          <p className="text-about">
             Iure animi provident in incidunt com modi labore dese runt quaerat
             quo neque, molestias eveniet distinctio illo saepe obcaecati sunt
             est placeat beatae sed! Lorem ipsum dolor sit amet consectetur
@@ -83,7 +83,7 @@ function About() {
             obcaecati sunt est placeat beatae sed!
           </p>
         </section>
-      </div>
+      </main>
 
       <Footer />
     </>

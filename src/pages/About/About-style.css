@@ -3,16 +3,17 @@ body {
   color: var(--green);
 }
 
-.container {
+.container-about {
   padding-bottom: 3rem;
   margin: 0 5%;
 }
 
-.sec1 {
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 3rem 0;
+  margin: 2rem 0;
+  padding: 2rem 0;
 }
 
 .logo {
@@ -23,67 +24,69 @@ body {
   margin: 1rem 0;
 }
 
-.text-sec1,
-.text-sec2 {
+.text-home,
+.text-about {
   text-align: justify;
   font-size: 20px;
 }
 
-.title-sec1 {
+.title-home {
   text-align: center;
   color: var(--orange-dark);
   margin: 1.5rem 0;
+  font-size: 36px;
 }
 
-.sec2 {
+.about {
   display: inline;
 }
 
-.title-sec2 {
+.title-about {
   text-align: center;
   color: var(--orange-light);
   margin: 5rem 0 3rem 0;
 }
 
-.video {
+.video-about {
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
 }
 
-.image-sec2 {
+.image1-about {
   display: inline;
   float: left;
   margin-right: 8px;
   width: 220px;
-  height: 180px;
+  height: 200px;
   border-radius: 5px;
 }
 
-.image-verse-sec2 {
+.image2-about {
   float: right;
   margin-left: 8px;
   width: 220px;
-  height: 180px;
+  height: 200px;
   border-radius: 5px;
 }
 
 @media screen and (min-width: 426px) {
-  .container {
+  .container-about {
     margin: 0 10%;
   }
+
   .logo {
     width: 300px;
     height: 300px;
   }
 
-  .video iframe {
+  .video-about iframe {
     height: 350px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  .sec1 {
+  .home {
     flex-direction: row;
     justify-content: space-around;
     margin: 3rem 0;
@@ -94,11 +97,17 @@ body {
     height: 350px;
   }
 
-  .text-sec1 {
+  .text-home {
     width: 40%;
   }
 
-  .video iframe {
+  .video-about iframe {
     width: 600px;
+  }
+
+  .image1-about,
+  .image2-about {
+    width: 260px;
+    height: 220px;
   }
 }

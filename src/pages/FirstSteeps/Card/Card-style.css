@@ -1,0 +1,20 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 150px;
+  margin: 1rem;
+}
+
+.card-title {
+  font-size: 18x;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 12px;
+  text-align: justify;
+  width: 80%;
+}
