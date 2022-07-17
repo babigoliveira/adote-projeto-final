@@ -1,0 +1,20 @@
+.footer {
+  background-color: var(--green);
+  color: var(--cream);
+  height: 60px;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+span {
+  font-weight: bold;
+  color: var(--orange-dark);
+  padding-left: 3px;
+}

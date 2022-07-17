@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--green);
+  height: 80px;
+}
+
+.logo-header p {
+  font-size: 30px;
+  color: var(--orange-dark);
+}
+
+.item {
+  display: inline;
+  list-style-type: none;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--orange-dark);
+  margin: 0 12px;
+  font-size: 20px;
+}
+
+.link:hover {
+  color: var(--yellow);
+}
