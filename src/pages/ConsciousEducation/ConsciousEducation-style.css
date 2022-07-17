@@ -1,0 +1,62 @@
+.container-education {
+  margin: 0 5%;
+}
+.container-education-cards,
+.no-violence-consequences,
+.no-violence,
+.consequences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-violence,
+.consequences {
+  margin: 2rem 0;
+}
+
+.subtiltle-education {
+  font-size: 20px;
+}
+
+.image-no-violence,
+.image-consequences {
+  margin: 1rem 0;
+  max-width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.text-no-violence,
+.text-consequences {
+  text-align: justify;
+  font-size: 20px;
+}
+
+.anchor {
+  color: var(--orange-dark);
+  background: var(--green);
+  border: 3px solid var(--orange-dark);
+  border-radius: 5px;
+  padding: 1rem 2rem;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 426px) {
+  .image-no-violence,
+  .image-consequences {
+    max-width: 250px;
+    height: 250px;
+  }
+
+  .text-no-violence,
+  .text-consequences {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .no-violence-consequences {
+    flex-direction: row;
+  }
+}

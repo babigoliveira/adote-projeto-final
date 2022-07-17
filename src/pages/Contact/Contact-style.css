@@ -18,7 +18,7 @@
 .text-contact {
   text-align: justify;
   font-size: 20px;
-  width: 90%;
+  width: 80%;
 }
 
 .form {
@@ -52,7 +52,7 @@
 @media screen and (min-width: 426px) {
   .inputs-form,
   .textarea {
-    width: 400px;
+    width: 380px;
   }
 
   .submit {
@@ -64,14 +64,19 @@
   .about-form {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
-  
+
   .about-contact {
-    width: 40%;
+    width: 50%;
   }
 
   .form-contact {
-    width: 40%;
+    width: 50%;
+  }
+
+  .inputs-form,
+  .textarea {
+    width: 400px;
   }
 }

@@ -88,13 +88,8 @@ body {
 @media screen and (min-width: 768px) {
   .home {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin: 3rem 0;
-  }
-
-  .logo {
-    width: 350px;
-    height: 350px;
   }
 
   .text-home {
