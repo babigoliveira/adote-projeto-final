@@ -1,4 +1,4 @@
-import logo from "../../assets/logo-test.jpg";
+import logo from "../../assets/logo-adote2.png";
 import Footer from "../../components/Footer/Footer";
 import "./About-style.css";
 
