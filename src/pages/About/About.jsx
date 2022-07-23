@@ -1,4 +1,4 @@
-import logo from "../../assets/logo-adote2.png";
+import logoPicture from "../../assets/logo-picture.png";
 import Footer from "../../components/Footer/Footer";
 import "./About-style.css";
 
@@ -7,9 +7,9 @@ function About() {
     <>
       <main className="container-about">
         <section className="home">
-          <img className="logo" src={logo} />
+          <img className="logo" src={logoPicture} />
           <div className="text-home">
-            <h1 className="title-home">Adote</h1>
+            <h1 className="title-home">Um pouco sobre nós</h1>
             <p>
               Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Asperiores fugiat nobis dolores magni nulla. Obcaecati accusamus

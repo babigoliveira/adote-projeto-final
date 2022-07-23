@@ -2,13 +2,12 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--green);
+  background-color: var(--orange);
   height: 80px;
 }
 
-.logo-header p {
-  font-size: 30px;
-  color: var(--purple);
+.logo-header img {
+  width: 150px;
 }
 
 .item {
@@ -18,11 +17,11 @@
 
 .link {
   text-decoration: none;
-  color: var(--purple);
+  color: white;
   margin: 0 12px;
   font-size: 20px;
 }
 
 .link:hover {
-  color: var(--violet);
+  color: var(--grey);
 }

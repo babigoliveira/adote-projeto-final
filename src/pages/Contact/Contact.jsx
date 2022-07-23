@@ -6,7 +6,7 @@ function Contact() {
   return (
     <>
       <section className="container-contact">
-        <h2 className="title-container">Contato:</h2>
+        <h2 className="title-container">Ficou com dúvida?</h2>
         <div className="about-form">
           <div className="about-contact">
             <h3 className="subtitle-contact">Entre em contato:</h3>
@@ -51,7 +51,7 @@ function Contact() {
               />
 
               <button className="submit">
-                <FiSend size={20} color="#ff4600" />
+                <FiSend size={20} color="#fff" />
               </button>
             </form>
           </div>

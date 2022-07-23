@@ -6,6 +6,7 @@
   text-align: center;
   margin: 2rem 0;
   font-size: 30px;
+  color: var(--orange);
 }
 
 .card-container {
@@ -15,14 +16,8 @@
 }
 
 .card-container .card:nth-child(even) {
-  border: 3px solid var(--yellow);
+  border: 3px solid var(--orange);
   border-radius: 10px;
   background: var(--orange-light);
-  color: var(--cream);
-}
-
-@media screen and (min-width: 426px) {
-  .container-steeps {
-    margin: 0 10%;
-  }
+  color: white;
 }

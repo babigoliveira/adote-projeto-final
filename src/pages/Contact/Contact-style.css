@@ -13,6 +13,7 @@
   font-size: 22px;
   margin-bottom: 1rem;
   text-align: center;
+  color: var(--orange-light);
 }
 
 .text-contact {
@@ -32,7 +33,7 @@
   min-width: 300px;
   min-height: 50px;
   margin: 0.5rem 0;
-  border: 2px solid var(--green);
+  border: 2px solid var(--orange);
   border-radius: 5px;
 }
 
@@ -41,11 +42,11 @@
 }
 
 .submit {
-  background: var(--green);
+  background: var(--orange-light);
   width: 200px;
   height: 40px;
   margin: 0.5rem 0;
-  border: 2px solid var(--orange-dark);
+  border: 2px solid var(--orange);
   border-radius: 5px;
 }
 

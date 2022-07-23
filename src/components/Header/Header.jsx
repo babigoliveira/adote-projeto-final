@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
+import logoDark from "../../assets/logo-dark.png";
+import logoLight from "../../assets/logo-light.png";
 import "./Header-style.css";
 
 function Header() {
   return (
     <div className="header">
       <div className="logo-header">
-        <p>Adote</p>
+        <img src={logoDark} />
       </div>
       <div className="navbar">
         <ul className="menu-navbar">

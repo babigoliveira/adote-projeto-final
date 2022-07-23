@@ -1,12 +1,15 @@
 :root {
-  --green: #8bc34a;
-  --purple: #730587;
-  --violet: #d676e7;
-  --grey: #6c6c6c;
+  --orange: #f86c21;
+  --orange-light: #ff8c00;
+  --grey: #777;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body.dark {
+  background-color: #333;
 }

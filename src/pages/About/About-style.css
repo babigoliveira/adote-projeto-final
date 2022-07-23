@@ -16,7 +16,7 @@ body {
 }
 
 .logo {
-  width: 250px;
+  width: 300px;
   height: 250px;
   margin: 1rem 0;
 }
@@ -29,7 +29,7 @@ body {
 
 .title-home {
   text-align: center;
-  color: var(--purple);
+  color: var(--orange);
   margin: 1.5rem 0;
   font-size: 36px;
 }
@@ -40,8 +40,9 @@ body {
 
 .title-about {
   text-align: center;
-  color: var(--green);
+  color: var(--orange);
   margin: 5rem 0 3rem 0;
+  font-size: 30px;
 }
 
 .video-about {
@@ -73,7 +74,7 @@ body {
   }
 
   .logo {
-    width: 300px;
+    width: 350px;
     height: 300px;
   }
 
@@ -100,6 +101,6 @@ body {
   .image1-about,
   .image2-about {
     width: 260px;
-    height: 220px;
+    height: 260px;
   }
 }

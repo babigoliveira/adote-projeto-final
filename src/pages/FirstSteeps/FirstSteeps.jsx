@@ -6,7 +6,7 @@ function FirstSteeps() {
   return (
     <>
       <section className="container-steeps">
-        <h1 className="title-container">Primeiros passos:</h1>
+        <h1 className="title-container">Quero adotar, e agora?</h1>
         <div className="card-container">
           <Card title=" Lorem Ipsum elit vit?">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias,
