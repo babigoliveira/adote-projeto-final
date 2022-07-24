@@ -11,9 +11,9 @@
 
 .subtitle-contact {
   font-size: 22px;
-  margin-bottom: 1rem;
+  margin: 2rem 0;
   text-align: center;
-  color: var(--orange-light);
+  color: var(--secondary-color-light);
 }
 
 .text-contact {
@@ -33,21 +33,38 @@
   min-width: 300px;
   min-height: 50px;
   margin: 0.5rem 0;
-  border: 2px solid var(--orange);
-  border-radius: 5px;
+  border: 3px solid var(--secondary-color-light);
+  border-radius: 10px;
 }
 
 .textarea {
   height: 100px;
 }
 
+.inputs-form::placeholder,
+.textarea::placeholder {
+  padding-left: 15px;
+}
+
+.inputs-form:focus,
+.textarea:focus {
+  outline: 0;
+  padding-left: 15px;
+}
+
 .submit {
-  background: var(--orange-light);
+  background: var(--secondary-color-light);
   width: 200px;
   height: 40px;
   margin: 0.5rem 0;
-  border: 2px solid var(--orange);
+  border: 3px solid var(--secondary-color-light);
   border-radius: 5px;
+  margin-bottom: 5rem;
+}
+
+.submit:hover {
+  background: var(--primary-color-light);
+  border: 3px solid var(--primary-color-light);
 }
 
 @media screen and (min-width: 426px) {

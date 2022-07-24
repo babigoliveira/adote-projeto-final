@@ -2,8 +2,11 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--orange);
+  background-color: var(--primary-color-dark);
   height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px;
+  position: fixed;
+  width: 100%;
 }
 
 .logo-header img {
@@ -23,5 +26,8 @@
 }
 
 .link:hover {
-  color: var(--grey);
+  color: var(--primary-color-light);
+}
+.link:focus {
+  color: var(--secondary-color-dark);
 }

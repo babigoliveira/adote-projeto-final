@@ -4,20 +4,21 @@
 
 .title-container {
   text-align: center;
-  margin: 2rem 0;
+  margin-top: 6rem;
   font-size: 30px;
-  color: var(--orange);
+  color: var(--primary-color);
 }
 
 .card-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  padding: 3rem 0;
 }
 
 .card-container .card:nth-child(even) {
-  border: 3px solid var(--orange);
+  border: 3px solid var(--secondary-color);
   border-radius: 10px;
-  background: var(--orange-light);
+  background: var(--secondary-color-light);
   color: white;
 }

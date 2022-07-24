@@ -1,12 +1,11 @@
 :root {
-  --orange: #f86c21;
-  --orange-light: #ff8800;
-  --purple: #7901c3;
-  --violet: #c778f8;
-  --green: #abde70;
+  --primary-color-dark: #006aa5;
+  --primary-color: #1a98d7;
+  --primary-color-light: #66c9ff;
+  --secondary-color-dark: #0026ca;
+  --secondary-color: #304ffe;
+  --secondary-color-light: #7aafff;
   --grey: #555;
-  --lilas: #bbbcba;
-  --grape: #796476;
 }
 
 * {
@@ -16,7 +15,7 @@
 }
 
 body.dark {
-  background-color: #222;
+  background-color: #333;
   color: white;
 }
 
