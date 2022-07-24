@@ -22,8 +22,8 @@ function Header() {
             </Link>
           </li>
           <li className="item">
-            <Link className="link" to="/educacao-consciente">
-              Educação Consciente
+            <Link className="link" to="/relatos">
+              Relatos
             </Link>
           </li>
           <li className="item">
