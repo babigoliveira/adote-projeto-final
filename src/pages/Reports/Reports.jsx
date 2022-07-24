@@ -3,7 +3,7 @@ import Family2 from "../../assets/family2.png";
 import Family3 from "../../assets/family3.png";
 import Family4 from "../../assets/family4.png";
 import Footer from "../../components/Footer/Footer";
-import "./Report-style.css";
+import "./Reports-style.css";
 
 function Report() {
   return (

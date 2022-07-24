@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "../components/Header/Header";
 import About from "../pages/About/About";
 import FirstSteeps from "../pages/FirstSteeps/FirstSteeps";
-import Report from "../pages/Report/Report";
+import Report from "../pages/Reports/Reports";
 import Contact from "../pages/Contact/Contact";
 import { ThemeContext, themes } from "../contexts/ThemeContext";
 
