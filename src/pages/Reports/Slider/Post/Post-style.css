@@ -1,0 +1,40 @@
+.post-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-image {
+  max-width: 200px;
+  max-height: 300px;
+}
+
+.post {
+  max-width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 2rem 0;
+  color: var(--secondary-color);
+}
+
+.post-text {
+  font-size: 20px;
+  text-align: justify;
+  width: 70%;
+}
+
+@media screen and (min-width: 769px) {
+  .post-card {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0;
+  }
+}

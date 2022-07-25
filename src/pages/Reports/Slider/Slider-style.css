@@ -1,0 +1,23 @@
+.swiper {
+  /* padding: 32px; */
+  width: 100%;
+  height: 100%;
+}
+
+/* cada slide do swiper */
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #03989e;
+}
+
+.swiper-button-prev {
+  color: #03989e;
+}
+
+.swiper-button-next {
+  color: #03989e;
+}
