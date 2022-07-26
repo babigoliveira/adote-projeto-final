@@ -4,10 +4,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Post from "./Post/Post";
-import Family1 from "../../../assets/family1.png";
-import Family2 from "../../../assets/family2.png";
-import Family3 from "../../../assets/family3.png";
-import Family4 from "../../../assets/family4.png";
+import family1 from "../../../assets/family1.png";
+import family2 from "../../../assets/family2.png";
+import family3 from "../../../assets/family3.png";
+import family4 from "../../../assets/family4.png";
 import "./Slider-style.css";
 
 function Slider() {
@@ -20,7 +20,7 @@ function Slider() {
         navigation
       >
         <SwiperSlide>
-          <Post image={Family1} title="Familia 1">
+          <Post image={family1} title="Familia 1">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
             quod alias labore aperiam libero? At optio iusto doloremque?
             Sapiente, ab repellat sint ex iste voluptates id quae accusantium
@@ -34,7 +34,7 @@ function Slider() {
           </Post>
         </SwiperSlide>
         <SwiperSlide>
-          <Post image={Family2} title="Familia 2">
+          <Post image={family2} title="Familia 2">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
             quod alias labore aperiam libero? At optio iusto doloremque?
             Sapiente, ab repellat sint ex iste voluptates id quae accusantium
@@ -48,7 +48,7 @@ function Slider() {
           </Post>
         </SwiperSlide>
         <SwiperSlide>
-          <Post image={Family3} title="Familia 3">
+          <Post image={family3} title="Familia 3">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
             quod alias labore aperiam libero? At optio iusto doloremque?
             Sapiente, ab repellat sint ex iste voluptates id quae accusantium
@@ -62,7 +62,7 @@ function Slider() {
           </Post>
         </SwiperSlide>
         <SwiperSlide>
-          <Post image={Family4} title="Familia 4">
+          <Post image={family4} title="Familia 4">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
             quod alias labore aperiam libero? At optio iusto doloremque?
             Sapiente, ab repellat sint ex iste voluptates id quae accusantium
