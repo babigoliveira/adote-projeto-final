@@ -6,7 +6,7 @@
   width: 350px;
   height: 320px;
   margin: 1rem 0;
-  border: 3px dashed var(--secondary-color);
+  border: 3px dashed var(--green);
   border-radius: 10px;
 }
 
@@ -19,7 +19,7 @@
   font-size: 24px;
   font-weight: bold;
   margin: 1rem 0;
-  color: var(--secondary-color);
+  color: var(--blue-light);
 }
 
 .card-text {

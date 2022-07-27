@@ -52,6 +52,7 @@ function Contact() {
 
               <button className="submit">
                 <FiSend size={20} color="#fff" />
+                Enviar
               </button>
             </form>
           </div>

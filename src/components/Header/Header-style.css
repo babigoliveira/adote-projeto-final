@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--primary-color-dark);
+  background-color: var(--blue-light);
   height: 80px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 10px 20px;
   position: fixed;
@@ -26,8 +26,10 @@
 }
 
 .link:hover {
-  color: var(--primary-color-light);
+  color: var(--green);
+  font-weight: bold;
 }
 .link:focus {
-  color: var(--secondary-color-dark);
+  color: var(--green);
+  font-weight: bold;
 }

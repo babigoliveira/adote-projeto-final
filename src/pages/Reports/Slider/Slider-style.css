@@ -1,23 +1,22 @@
 .swiper {
-  /* padding: 32px; */
   width: 100%;
   height: 100%;
+  z-index: -1; /*não funciona navegação*/
 }
 
-/* cada slide do swiper */
 .swiper-slide {
   display: flex;
   justify-content: center;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: #03989e;
+  background-color: var(--green);
 }
 
 .swiper-button-prev {
-  color: #03989e;
+  color: var(--green);
 }
 
 .swiper-button-next {
-  color: #03989e;
+  color: var(--green);
 }
