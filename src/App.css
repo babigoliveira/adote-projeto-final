@@ -19,7 +19,7 @@ body.dark {
 }
 
 .switch {
-  margin: 15px;
+  margin: 100px 0 15px 10px;
   position: relative;
   display: inline-block;
   width: 60px;

@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import logoDark from "../../assets/logo-dark.png";
-import logoLight from "../../assets/logo-light.png";
 import "./Header-style.css";
 
 function Header() {
