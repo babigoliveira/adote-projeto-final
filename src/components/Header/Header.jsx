@@ -6,7 +6,9 @@ function Header() {
   return (
     <div className="header">
       <div className="logo-header">
-        <img src={logoDark} />
+        <Link className="link" to="/">
+          <img src={logoDark} />
+        </Link>
       </div>
       <div className="navbar">
         <ul className="menu-navbar">

@@ -10,15 +10,18 @@ function About() {
         <div className="text-home">
           <h1 className="title-home">Um pouco sobre nós</h1>
           <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores
-            fugiat nobis dolores magni nulla. Obcaecati accusamus ipsum natus
-            laudantium recusandae. Alias magni, sequi fuga cupiditate saepe
-            ullam illum ab! Esse?Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Accusamus libero molestias beatae dignissimos
-            dolorum non porro sequi soluta iste deleniti? Inventore, nihil
-            nesciunt! Cupiditate consectetur nam quasi soluta, voluptatem
-            sapiente similique alias, ea quam ipsam amet aliquid nemo, quibusdam
-            tempore atque voluptatum dolor.
+            O<span>ADOTE</span> é um site voltado para orientação e elucidação
+            dos processos da adoção consciente. Quando estava mais nova uma tia
+            adotou meu primo que estava em casa de apoio. A partir dai, admirada
+            pela sua escolha, me voluntariei para auxiliar no ensino infantil e
+            fundamental em momentos de oratória, música, dança, esportes e
+            lazer. Assim, acompanhando todo o processo pude observar o quão
+            lindo foi o seu ato e da rede de apoio que obteve em sua família.
+            Quando me surgiu uma oportunidade, comecei a estudar pedagogia com
+            intuito de entender mais os processos de aprendizagem e também somar
+            na educação das crianças, incluindo meu filho. Neste site, você
+            encontrará motivos para entender que o ato de supremo amor é também
+            um ato social.
           </p>
         </div>
       </section>
