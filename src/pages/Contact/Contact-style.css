@@ -16,6 +16,28 @@
   color: var(--blue-light);
 }
 
+.my-contact {
+  margin: 2rem 0;
+  text-decoration: none;
+}
+
+.linkedin,
+.github,
+.instagram {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.instagram a,
+.linkedin a,
+.github a {
+  color: var(--blue-light);
+}
+
 .text-contact {
   text-align: justify;
   font-size: 20px;

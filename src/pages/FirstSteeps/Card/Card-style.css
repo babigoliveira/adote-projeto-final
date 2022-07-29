@@ -4,20 +4,26 @@
   justify-content: center;
   align-items: center;
   width: 350px;
-  height: 450px;
+  height: 380px;
   margin: 1rem 0;
   border: 3px dashed var(--green);
   border-radius: 10px;
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+.card:hover {
+  transform: rotateY(180deg);
 }
 
-.card:hover {
-  width: 450px;
+.card-title,
+.card-text {
+  position: absolute;
+  backface-visibility: hidden;
 }
 
 .card-title {
   font-size: 24px;
   font-weight: bold;
-  margin: 1rem 0.5rem;
   color: var(--blue-light);
   text-align: center;
 }
@@ -26,5 +32,5 @@
   font-size: 20px;
   text-align: justify;
   width: 80%;
-  padding-bottom: 2rem;
+  transform: rotateY(180deg);
 }

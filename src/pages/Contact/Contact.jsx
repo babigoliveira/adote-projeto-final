@@ -1,4 +1,4 @@
-import { FiSend } from "react-icons/fi";
+import { FiGithub, FiInstagram, FiLinkedin, FiSend } from "react-icons/fi";
 import Footer from "../../components/Footer/Footer";
 import "./Contact-style.css";
 
@@ -11,15 +11,38 @@ function Contact() {
           <div className="about-contact">
             <h3 className="subtitle-contact">Entre em contato:</h3>
             <p className="text-contact">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto aperiam molestiae at fuga, alias assumenda nostrum
-              illum eaque, voluptatum ad iste unde qui laboriosam perferendis!
-              Facere possimus odio libero totam. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Quia delectus earum, molestiae
-              facere, incidunt dignissimos minus corrupti aut laborum dicta
-              expedita soluta inventore provident labore excepturi impedit
-              aliquam. Corrupti, quos?
+              Ficou com dúvidas, quer dar feedback ou contar um pouco da sua
+              expêriencia quanto a adoção nos envie uma mensagem!
             </p>
+            <div className="my-contact">
+              <div className="linkedin">
+                <FiLinkedin size={24} color="#91ca41" />
+                <a
+                  className="text-contact"
+                  href="www.linkedin.com/in/barbaragdeoliveira"
+                >
+                  barbaragdeoliveira
+                </a>
+              </div>
+              <div className="github">
+                <FiGithub size={24} color="#91ca41" />
+                <a
+                  className="text-contact"
+                  href="https://github.com/babigoliveira"
+                >
+                  babigoliveira
+                </a>
+              </div>
+              <div className="instagram">
+                <FiInstagram size={24} color="#91ca41" />
+                <a
+                  className="text-contact"
+                  href="https://www.instagram.com/babigoliveira/"
+                >
+                  babigoliveira
+                </a>
+              </div>
+            </div>
           </div>
 
           <div className="form-contact">

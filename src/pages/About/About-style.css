@@ -45,7 +45,7 @@ body {
 }
 
 .adoption {
-  background-image: linear-gradient(white, var(--blue-dark));
+  background-image: linear-gradient(to right, var(--green), var(--blue-dark));
 }
 
 .subtitle-adoption {
@@ -70,6 +70,7 @@ ul {
 .text-adoption {
   margin: 0.8rem 0;
   font-size: 22px;
+  color: white;
 }
 
 .video-adoption {
@@ -96,7 +97,7 @@ ul {
   .home {
     flex-direction: row;
     justify-content: space-evenly;
-    padding: 2rem 0;
+    margin-bottom: 3rem;
   }
 
   .text-home {
