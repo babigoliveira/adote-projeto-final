@@ -3,7 +3,7 @@ import { FiMenu } from "react-icons/fi";
 import { Link } from "react-router-dom";
 import "./HamburguerMenu-style.css";
 
-import * as cn from "classnames";
+import { default as cn } from "classnames";
 
 const HamburguerMenu = () => {
   const [active, setActive] = useState(false);
