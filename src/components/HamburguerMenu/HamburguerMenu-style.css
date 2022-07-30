@@ -1,0 +1,34 @@
+.hamburguer-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.hamburguer-icon {
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.mobile-nav {
+  display: none;
+  top: 50px;
+  right: 0;
+  width: 300px;
+  position: absolute;
+  height: 500px;
+  background-color: gray;
+}
+
+.mobile-nav.active {
+  display: block;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
+}
+
+.menu-list li {
+  padding: 5px;
+}
