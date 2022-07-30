@@ -6,7 +6,7 @@ function FirstSteeps() {
   return (
     <>
       <section className="container-steeps">
-        <h1 className="title-container">Quero adotar, e agora?</h1>
+        <h2 className="title-container">Quero adotar, e agora?</h2>
         <div className="card-container">
           <Card title="Quem pode adotar?">
             Toda pessoa com mais de 18 anos de idade, seja ela casada, solteira

@@ -1,6 +1,6 @@
 import "./Post-style.css";
 
-function Post({ image, title, children }) {
+function Post({ image, children }) {
   return (
     <>
       <div className="post-card">

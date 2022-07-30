@@ -23,7 +23,7 @@ function ApplicationRoutes() {
               value={theme === themes.dark}
               onChange={() => switchTheme(theme, changeTheme)}
             />
-            <span class="slider round"></span>
+            <span className="slider round"></span>
           </label>
         )}
       </ThemeContext.Consumer>

@@ -6,29 +6,60 @@ function Header() {
   return (
     <div className="header">
       <div className="logo-header">
-        <Link className="link" to="/">
+        <Link to="/">
           <img src={logoDark} />
         </Link>
       </div>
-      <div className="navbar">
-        <ul className="menu-navbar">
-          <li className="item">
-            <Link className="link" to="/">
+
+      <div className="navbar-hamburguer">
+        <div className="hamburger-lines">
+          <span className="line"></span>
+          <span className="line"></span>
+          <span className="line"></span>
+        </div>
+        <ul className="menu-hamburguer">
+          <li>
+            <Link className="link-hamburguer" to="/">
               Sobre
             </Link>
           </li>
-          <li className="item">
-            <Link className="link" to="/primeiros-passos">
+          <li>
+            <Link className="link-hamburguer" to="/primeiros-passos">
               Primeiros Passos
             </Link>
           </li>
-          <li className="item">
-            <Link className="link" to="/relatos">
+          <li>
+            <Link className="link-hamburguer" to="/relatos">
               Relatos
             </Link>
           </li>
-          <li className="item">
-            <Link className="link" to="/contato">
+          <li>
+            <Link className="link-hamburguer" to="contato">
+              Contato
+            </Link>
+          </li>
+        </ul>
+      </div>
+
+      <div className="navbar-list">
+        <ul className="menu-list">
+          <li className="item-list">
+            <Link className="link-list" to="/">
+              Sobre
+            </Link>
+          </li>
+          <li className="item-list">
+            <Link className="link-list" to="/primeiros-passos">
+              Primeiros Passos
+            </Link>
+          </li>
+          <li className="item-list">
+            <Link className="link-list" to="/relatos">
+              Relatos
+            </Link>
+          </li>
+          <li className="item-list">
+            <Link className="link-list" to="/contato">
               Contato
             </Link>
           </li>
